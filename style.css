@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#urun-listesi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.urun {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.urun button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#sepet {
+    margin-top: 30px;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+}
